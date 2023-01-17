@@ -1,0 +1,18 @@
+.episode {
+    display: flex;
+    max-width: 1500px;
+    overflow-x: auto;
+}
+
+.episode::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 210px;
+}
+
+.episode::-webkit-scrollbar-thumb {
+    width: 50px;
+    background: rgb(48, 47, 47);
+    border-radius: 210px;
+}

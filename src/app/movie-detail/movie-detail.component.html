@@ -1,0 +1,191 @@
+<div class="container my-5">
+    <img src="../../assets/imgs/underthe.jpg" style="position:absolute;top:0;left:0;z-index:-1;width: 100%;filter: blur(10px);
+     -webkit-filter: blur(10px);height: 1000px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;object-fit: cover;" alt="">
+
+    <div class="row">
+            <a href="/" class="text-white" style="width: 40;height: 40;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg>
+            </a>
+        <div class="col-md-5 text-center mt-5">
+            <img src="http://localhost:3000/{{image}}" width="200" alt="">
+        </div>
+        <div class="col-md-7 mt-5">
+            <h5 class="text-white">{{title1}}</h5>
+            <p class="my-3 text-white">
+                Korean Drama
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot"
+                    viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>
+                {{Dura1}}
+            </p>
+            <p  class="text-white">{{rating}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot"
+                    viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>
+                {{rating1}}
+            </p>
+            <p class="text-white">{{creator}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot"
+                    viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>
+                {{creator1}}
+            </p>
+
+            <h5 class="text-white">{{overview}}</h5>
+            <p class="text-white">{{overview1}}</p>
+        </div>
+    </div>
+
+    <!-- episode-section -->
+
+    <div class="episode-section">
+
+        <h4 class="my-5 text-white">
+            {{episode}}
+        </h4>
+        <!-- <div class="episode text-center">
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode1}} 1</p>
+            </div>
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode}} 2</p>
+            </div>
+            <div class="ep">
+                <div class="ads">
+                    <p class="text-white">Ads Here!</p>
+                </div>
+            </div>
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode}} 3</p>
+            </div>
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode}} 4</p>
+            </div>
+
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode}} 5</p>
+            </div>
+            <div class="ep">
+                <img src="../../assets/imgs/underthe.jpg" alt="">
+                <p>{{episode}} 6</p>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- trailer-section -->
+    <h5 class="my-5">{{trailer}}</h5>
+    <div class="trailer mt-4 mb-5">
+        <div class="tril mb-3">
+            <iframe width="560" height="315" src="{{trailer1}}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="tril mb-3">
+            <iframe width="560" height="315" src="{{trailer2}}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="tril mb-3">
+            <iframe width="560" height="315" src="{{trailer3}}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <app-ads></app-ads>
+    <!-- info-section -->
+
+    <div class="info-div my-5">
+        <h2 class="info-text mt-5">{{info}}</h2>
+        <table class="table table-striped ">
+            <thead>
+                <tr>
+                    <th scope="row" colspan="2">{{network}}</th>
+                    <th scope="col">{{network1}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">{{Cate}}</td>
+                    <td>{{cate}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2">{{ageRating}}</td>
+                    <td>{{ageRating1}}</td>
+                </tr>
+                <!-- <tr>
+                    <td colspan="2">{{lang}}</td>
+                    <td>Myanmar</td>
+                </tr> -->
+                <!-- <tr>
+                    <td colspan="2">{{weeklyDownload}}</td>
+                    <td>2001+</td>
+                </tr> -->
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- info-section -->
+    <!-- Download Section  -->
+    <div class="info-div my-5">
+        <h2 class="info-text mt-5">{{down}}</h2>
+        <table class="table table-striped ">
+            <thead>
+                <tr>
+                    <th scope="rpw">SiteName</th>
+                    <th scope="rpw">Low Quality</th>
+                    <th scope="col">High Quality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mega.nz</td>
+                    <td><span class="text-primary">{{download1Low}}</span>/{{download1Lowtext}}</td>
+                    <td><span class="text-primary">{{download1High}}</span>/{{download1Hightext}}</td>
+                </tr>
+            <tr>
+                <td>mega.nz</td>
+                <td><span class="text-primary">{{download2Low}}</span>/{{download2Lowtext}}</td>
+                <td><span class="text-primary">{{download2High}}</span>/{{download2Hightext}}</td>
+            </tr><tr>
+                <td>mega.nz</td>
+                <td><span class="text-primary">{{download3Low}}</span>/{{download3Lowtext}}</td>
+                <td><span class="text-primary">{{download3High}}</span>/{{download3Hightext}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Download Section  -->
+</div>
+
+<div class="container">
+    <h2>Recommendations</h2>
+</div>
+<app-update></app-update>
+<app-ads></app-ads>
+
+
+<app-footer></app-footer>

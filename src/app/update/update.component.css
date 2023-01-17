@@ -1,0 +1,32 @@
+.items img {
+    width: 210px;
+    height: 128px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.wapper {
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wapper::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 210px;
+}
+
+.wapper::-webkit-scrollbar-thumb {
+    width: 50px;
+    background: #000;
+    border-radius: 210px;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 100px;
+}

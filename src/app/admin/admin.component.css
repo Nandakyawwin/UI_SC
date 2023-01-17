@@ -1,0 +1,15 @@
+#sidebar {
+    float: left;
+    width: 200px;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content-page {
+    display: none;
+}

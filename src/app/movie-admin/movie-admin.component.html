@@ -1,0 +1,134 @@
+<div class="container-fluid">
+    <div class="row g-1 bg-secondary">
+        <nav class="col-2 bg-light pe-3 pt-4 text-center g-1">
+            <h1 class="h4 py3 text-center text-primary">
+                <span class="d-none d-lg-inline">
+                    <img src="../../assets/logo.svg" width="150" alt="">
+                </span>
+            </h1>
+            <div class="list-group text-center text-lg-start dd">
+                <span class="list-group-item disabled d-none d-lg-block">
+                    <small>Dashboard</small>
+                </span>
+                <a routerLink="/dashboard" class="list-group-item list-group-item-action">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-speedometer2" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z" />
+                        <path fill-rule="evenodd"
+                            d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z" />
+                    </svg>
+                    <span class="d-none d-lg-inline"> Dashboard</span>
+                </a>
+                <a routerLink="/notifications" class="list-group-item list-group-action">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bell" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                    </svg>
+                    <span class="d-none d-lg-inline"> Noitficatons</span>
+                    <span class="d-none d-lg-inline badge bg-danger rounded-pill float-end">20</span>
+                </a>
+                <div class="list-group mt-4 text-center text-lg-start">
+                    <span class="list-group-item disabled d-none d-lg-block">
+                        <small>Edit</small>
+                    </span>
+                    <a href="/posts" class="list-group-item list-group-item-action">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path
+                                d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                            <path fill-rule="evenodd"
+                                d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                        </svg>
+                        <span class="d-none d-lg-inline"> Post</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg>
+                        <span class="d-none d-lg-inline disabled"> Comment</span>
+                    </a>
+                    <a href="/jobs" class="list-group-item list-group-item-action">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-easel2-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.447.276a.5.5 0 0 0-.894 0L7.19 1H2.5A1.5 1.5 0 0 0 1 2.5V10h14V2.5A1.5 1.5 0 0 0 13.5 1H8.809L8.447.276Z" />
+                            <path fill-rule="evenodd"
+                                d="M.5 11a.5.5 0 0 0 0 1h2.86l-.845 3.379a.5.5 0 0 0 .97.242L3.89 14h8.22l.405 1.621a.5.5 0 0 0 .97-.242L12.64 12h2.86a.5.5 0 0 0 0-1H.5Zm3.64 2 .25-1h7.22l.25 1H4.14Z" />
+                        </svg>
+                        <span class="d-none d-lg-inline"> Jobs</span>
+                    </a>
+                    <a href="/moviesadmin" class="list-group-item list-group-item-action">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-play-btn" viewBox="0 0 16 16">
+                            <path
+                                d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                        </svg>
+                        <span class="d-none d-lg-inline"> Movies</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <main class="col-10 bg-light">
+            
+            <div class="container my-5">
+                <h5>Movies</h5>
+
+                <div class="col-md-10">
+                    <div class="container my-5">
+                        <h5>Find Movie</h5>
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <table class="table my-5 container">
+                        <thead>
+                            <h5>All Movies</h5>
+                            <tr>
+                                <th scope="col">Image</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Duration</th>
+                                <th scope="col">Rating</th>
+                                <th scope="col">ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let data of datas">
+                                <td class="text-truncate" style="max-width: 7px;">{{data.image}}</td>
+                                <td>{{data.name}}</td>
+                                <td>{{data.Duration}}</td>
+                                <td>{{data.rating}}</td>
+                                <td>{{data._id}}</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<footer class="text-center py-4 text-muted">
+    &copy; Copyright 2020
+</footer>
+
+<router-outlet></router-outlet>

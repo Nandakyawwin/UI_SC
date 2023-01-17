@@ -1,0 +1,10 @@
+.carousel-inner img {
+    margin: auto;
+}
+
+.dd img {
+    border-radius: 10px;
+    box-shadow: 1px gray;
+    width: 400px;
+    height: auto;
+}

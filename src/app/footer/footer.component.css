@@ -1,0 +1,20 @@
+.text {
+    color: #D07487;
+    font-weight: 600;
+    /* font-size: 30px; */
+}
+
+.bg {
+    background: #000;
+}
+
+.footer {
+    bottom: 0;
+}
+
+.mottos {
+    font-family: 'Inria Serif', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Inter:wght@100;300&display=swap');

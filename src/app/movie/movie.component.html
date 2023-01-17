@@ -1,0 +1,13 @@
+<div class="container">
+    <h5 class="mt-5">All Movies</h5>
+    <div class="cardcontainer">
+        <div class="cardbody" *ngFor="let data of datas">
+            <div class="card-img" (click)="moviedetail(data)">
+                <img src="http://localhost:3000/{{data.image}}" alt="">
+            </div>
+            <div class="card-title">
+                <p>{{data.name}}</p>
+            </div>
+        </div>
+    </div>
+</div>

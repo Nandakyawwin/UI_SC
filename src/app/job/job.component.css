@@ -1,0 +1,27 @@
+.job-container{
+    margin: auto;
+    width: 60%;
+    height: 200px;
+    background: #dd3;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+    align-items: center;
+}
+h3{
+    padding: 20px 0 10px 0;
+
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background: rgb(75, 142, 242);
+    border-radius: 3px;
+    border: 1px solid rgb(75, 142, 242);
+    color: white;
+
+}
+p{
+    padding:0 20px;
+}
