@@ -6,7 +6,7 @@ import { Subject } from "rxjs";
 export class localService {
 
 
-    BASE_URL = 'http://localhost:3000/';
+    BASE_URL = 'http://178.128.216.217:3000/';
     movieURL = this.BASE_URL + 'movies';
     AdminLoginURL = this.BASE_URL + 'admin/adminLogin';
     AdminAllURL = this.BASE_URL + 'admin/all';
